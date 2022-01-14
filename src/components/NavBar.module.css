@@ -1,0 +1,28 @@
+.navbar_container{
+    border-bottom: 2px solid black;
+     text-align: center;
+}
+.navbar_div{
+    text-align: center;
+    background-color: white;
+    display: inline-flex;
+}
+.navbar_ul{
+    display: inline-flex;
+
+}
+li{
+    margin: auto;
+    cursor: pointer;
+    list-style-type: none;
+    margin-left: 15px;
+}
+.navbar_img{
+    margin: auto;
+    width: 20px;
+    height: 20px;
+    margin-left: 15px
+}
+.navbar_heading{
+    text-align: center;
+}

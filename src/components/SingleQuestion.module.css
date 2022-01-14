@@ -1,0 +1,6 @@
+.singlequestion_container{ 
+    margin-top: 15px; 
+}
+.singlequestion_display{
+    display: inline-flex;
+}
