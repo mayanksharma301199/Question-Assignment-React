@@ -1,5 +1,5 @@
 .questionbank_next__button{
-    background-color: #96F213;
+    background-color: #5d8512;
     color: white;
     border-radius: 30px;
     width: 6rem;
@@ -12,16 +12,16 @@
 .questionbank_back__button{
     margin-left: 10px;
     margin-right: 10px;
-    background-color: white;
-    color: black;
+    background-color: #fffffe;
+    color: #5d8512;
     border-radius: 30px;
     width: 6rem;
     height: 2rem;
-    border: 1px solid black;
+    border: 1px solid #5d8512;
     cursor: pointer;
 }
 .questionbank_title__heading{
-    color:skyblue;
+    color:#80b8c7;
     margin-top: 25px;
 }
 .questionbank_container{

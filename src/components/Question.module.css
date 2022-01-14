@@ -4,11 +4,13 @@
 .question_heading{
     width: fit-content;
     height: fit-content;
+    color: #80b8c7;
 }
 .question_content__paragraph{
     width: fit-content;
     height: fit-content;
     font-size:small;
+    font-weight: bold;
 }
 .question_display{
     display: inline-flex;
