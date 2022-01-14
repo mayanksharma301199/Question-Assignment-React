@@ -19,6 +19,12 @@ const QuestionBank = () => {
         setCurrentPage(currentPage + 1);
       }
     }
+    else{
+      setNextButtonTitle("Next");
+      setCurrentPage(0);
+      setQuestions(questionSet[0])
+      alert("Submitted");
+    }
   };
   const pageBackHandler = () => {
     if (currentPage === ((questionSet[0]).length - 1)) {
@@ -54,7 +60,7 @@ const QuestionBank = () => {
             );
           }
         )}
-
+          <div className={styles["questionbank_btn"]} >
         {currentPage !== 0 && (
           <button className={styles["questionbank_back__button"]} onClick={pageBackHandler}>
             Back
@@ -63,6 +69,7 @@ const QuestionBank = () => {
         <button className={styles["questionbank_next__button"]} onClick={changePageHandler}>
           {nextButtonTitle}
         </button>
+        </div>
       </div>
     </>
   );
